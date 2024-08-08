@@ -12,7 +12,7 @@ function AddTransactions() {
    
    
    function addTransactions (){
-    fetch("http://localhost:3000/Transaction_data", {
+    fetch("https://bank-flatiron-weld.vercel.app/Transaction_data", {
       method: "post",
       headers: {
         "Content-Type": "application/json",

@@ -6,7 +6,7 @@ import Users from "./Users";
 
 
 function App() {
-  const url = "http://localhost:3000/Transaction_data";
+  const url = "https://bank-flatiron-weld.vercel.app/Transaction_data";
   const [transactions, setTransactions] = useState([])
 
   useEffect (()=>{
