@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import AddTransactions from "./AddTransactions";
 import DisplayList from "./DisplayList";
-import Users from "./Users";
-
 
 
 function App() {

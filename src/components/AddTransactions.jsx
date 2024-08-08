@@ -29,7 +29,7 @@ function AddTransactions() {
     });
    }
   return (
-    <form onSubmit={addTransactions}>
+    <form onSubmit={addTransactions} className='form'>
       <InputField placeholder="Enter id" type="text" onChange = {(e)=> setId(e.target.value)} />
       <InputField placeholder="Enter date" type="date" onChange = {(e)=> setDate(e.target.value)}/>
       <InputField placeholder="Enter description" type="text" onChange = {(e)=> setDescription(e.target.value)}/>

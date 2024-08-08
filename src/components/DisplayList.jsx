@@ -5,7 +5,7 @@ function DisplayList({transations}) {
     <div>
      {transations.map((transation)=>{
         return (
-          <li key={transation.id}>
+          <li key={transation.id} className='list'>
             <strong>Date:</strong>
             {transation.date}
             <strong>Description:</strong>
