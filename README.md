@@ -85,3 +85,7 @@ The Bank of Flatiron application is structured as follows:(The main components u
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+# AUTHOR
+ `INNOCENT OMONYA`
