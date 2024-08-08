@@ -1,11 +1,24 @@
 import React from 'react'
 
-function DisplayList() {
+function DisplayList({transations}) {
   return (
     <div>
-      
+     {transations.map((transation)=>{
+        return (
+          <li key={transation.id}>
+            <strong>Date:</strong>
+            {transation.date}
+            <strong>Description:</strong>
+            {transation.description}
+            <strong>Category:</strong>
+            {transation.category}
+            <strong>Amount:</strong>
+            {transation.amount}
+          </li>
+        );
+     })} 
     </div>
   )
 }
 
-export default DisplayList
+export default DisplayList;
